@@ -10,6 +10,7 @@ The database is populated with made-up data.
 
 ## Usage
 createdb mydb
+
 psql -d mydb -f schema.sql
 
 psql -d mydb -f seed.sql
